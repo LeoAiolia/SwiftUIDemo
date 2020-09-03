@@ -7,12 +7,28 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.navigationController?.navigationBar.isHidden = true
+        
+        let button = UIButton(type: .system)
+        button.setTitle("next", for: .normal)
+        button.setTitleColor(.red, for: .normal)
+        button.titleLabel?.font = .systemFont(ofSize: 18)
+        button.frame = CGRect(x: 100, y: 300, width: 200, height: 50)
+        button.addTarget(self, action: #selector(touchBtn(sender:)), for: .touchUpInside)
+        view.addSubview(button)
+    }
+    
+    @objc func touchBtn(sender: UIButton) {
+        
+        let vc = UIHostingController(rootView: ContentView())
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 

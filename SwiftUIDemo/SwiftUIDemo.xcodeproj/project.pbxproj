@@ -13,6 +13,19 @@
 		B3AFDF8E25009BDC0067FAAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AFDF8C25009BDC0067FAAC /* Main.storyboard */; };
 		B3AFDF9025009BDE0067FAAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AFDF8F25009BDE0067FAAC /* Assets.xcassets */; };
 		B3AFDF9325009BDE0067FAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AFDF9125009BDE0067FAAC /* LaunchScreen.storyboard */; };
+		B3AFDF9E25009F3A0067FAAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDF9D25009F3A0067FAAC /* ContentView.swift */; };
+		B3AFDFA025009F8E0067FAAC /* Window+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDF9F25009F8E0067FAAC /* Window+Ext.swift */; };
+		B3AFDFA225009FC80067FAAC /* CGFloat+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFA125009FC80067FAAC /* CGFloat+Ext.swift */; };
+		B3AFDFA42500B9370067FAAC /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFA32500B9370067FAAC /* View+Ext.swift */; };
+		B3AFDFA62500B9460067FAAC /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFA52500B9460067FAAC /* Color+Ext.swift */; };
+		B3AFDFA82500BB0C0067FAAC /* PageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFA72500BB0C0067FAAC /* PageRow.swift */; };
+		B3AFDFAB2500C53A0067FAAC /* LotteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFAA2500C53A0067FAAC /* LotteryView.swift */; };
+		B3AFDFAE2500CEE90067FAAC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFAD2500CEE90067FAAC /* CircleImage.swift */; };
+		B3AFDFB02500D4490067FAAC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFAF2500D4490067FAAC /* MapView.swift */; };
+		B3AFDFB22500D6370067FAAC /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFB12500D6370067FAAC /* LandmarkDetail.swift */; };
+		B3AFDFB62500D80D0067FAAC /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFB52500D80D0067FAAC /* Landmark.swift */; };
+		B3AFDFBB2500DA480067FAAC /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFBA2500DA480067FAAC /* LandmarkRow.swift */; };
+		B3AFDFBD2500DFD80067FAAC /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFBC2500DFD80067FAAC /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		B3AFDF8F25009BDE0067FAAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3AFDF9225009BDE0067FAAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3AFDF9425009BDE0067FAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3AFDF9D25009F3A0067FAAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3AFDF9F25009F8E0067FAAC /* Window+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Window+Ext.swift"; sourceTree = "<group>"; };
+		B3AFDFA125009FC80067FAAC /* CGFloat+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Ext.swift"; sourceTree = "<group>"; };
+		B3AFDFA32500B9370067FAAC /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		B3AFDFA52500B9460067FAAC /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		B3AFDFA72500BB0C0067FAAC /* PageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageRow.swift; sourceTree = "<group>"; };
+		B3AFDFAA2500C53A0067FAAC /* LotteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryView.swift; sourceTree = "<group>"; };
+		B3AFDFAD2500CEE90067FAAC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		B3AFDFAF2500D4490067FAAC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B3AFDFB12500D6370067FAAC /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		B3AFDFB52500D80D0067FAAC /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		B3AFDFBA2500DA480067FAAC /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
+		B3AFDFBC2500DFD80067FAAC /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +85,81 @@
 				B3AFDF8625009BDC0067FAAC /* AppDelegate.swift */,
 				B3AFDF8825009BDC0067FAAC /* SceneDelegate.swift */,
 				B3AFDF8A25009BDC0067FAAC /* ViewController.swift */,
+				B3AFDF9A25009E970067FAAC /* Lib */,
 				B3AFDF8C25009BDC0067FAAC /* Main.storyboard */,
 				B3AFDF8F25009BDE0067FAAC /* Assets.xcassets */,
 				B3AFDF9125009BDE0067FAAC /* LaunchScreen.storyboard */,
 				B3AFDF9425009BDE0067FAAC /* Info.plist */,
 			);
 			path = SwiftUIDemo;
+			sourceTree = "<group>";
+		};
+		B3AFDF9A25009E970067FAAC /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B3AFDF9C25009F1C0067FAAC /* Page */,
+				B3AFDF9B25009EB70067FAAC /* Extention */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		B3AFDF9B25009EB70067FAAC /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				B3AFDF9F25009F8E0067FAAC /* Window+Ext.swift */,
+				B3AFDFA125009FC80067FAAC /* CGFloat+Ext.swift */,
+				B3AFDFA32500B9370067FAAC /* View+Ext.swift */,
+				B3AFDFA52500B9460067FAAC /* Color+Ext.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		B3AFDF9C25009F1C0067FAAC /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				B3AFDF9D25009F3A0067FAAC /* ContentView.swift */,
+				B3AFDFA72500BB0C0067FAAC /* PageRow.swift */,
+				B3AFDFAC2500CED40067FAAC /* Example */,
+				B3AFDFA92500C51D0067FAAC /* Lottery */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		B3AFDFA92500C51D0067FAAC /* Lottery */ = {
+			isa = PBXGroup;
+			children = (
+				B3AFDFAA2500C53A0067FAAC /* LotteryView.swift */,
+			);
+			path = Lottery;
+			sourceTree = "<group>";
+		};
+		B3AFDFAC2500CED40067FAAC /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				B3AFDFB42500D7ED0067FAAC /* 2 */,
+				B3AFDFB32500D7D70067FAAC /* 1 */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		B3AFDFB32500D7D70067FAAC /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				B3AFDFB12500D6370067FAAC /* LandmarkDetail.swift */,
+				B3AFDFAF2500D4490067FAAC /* MapView.swift */,
+				B3AFDFAD2500CEE90067FAAC /* CircleImage.swift */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		B3AFDFB42500D7ED0067FAAC /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				B3AFDFB52500D80D0067FAAC /* Landmark.swift */,
+				B3AFDFBA2500DA480067FAAC /* LandmarkRow.swift */,
+				B3AFDFBC2500DFD80067FAAC /* LandmarkList.swift */,
+			);
+			path = 2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +233,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3AFDFA42500B9370067FAAC /* View+Ext.swift in Sources */,
+				B3AFDFB02500D4490067FAAC /* MapView.swift in Sources */,
 				B3AFDF8B25009BDC0067FAAC /* ViewController.swift in Sources */,
+				B3AFDFBD2500DFD80067FAAC /* LandmarkList.swift in Sources */,
 				B3AFDF8725009BDC0067FAAC /* AppDelegate.swift in Sources */,
+				B3AFDFA82500BB0C0067FAAC /* PageRow.swift in Sources */,
+				B3AFDFAB2500C53A0067FAAC /* LotteryView.swift in Sources */,
+				B3AFDFA225009FC80067FAAC /* CGFloat+Ext.swift in Sources */,
+				B3AFDFA025009F8E0067FAAC /* Window+Ext.swift in Sources */,
+				B3AFDFBB2500DA480067FAAC /* LandmarkRow.swift in Sources */,
+				B3AFDFA62500B9460067FAAC /* Color+Ext.swift in Sources */,
+				B3AFDFAE2500CEE90067FAAC /* CircleImage.swift in Sources */,
+				B3AFDF9E25009F3A0067FAAC /* ContentView.swift in Sources */,
 				B3AFDF8925009BDC0067FAAC /* SceneDelegate.swift in Sources */,
+				B3AFDFB22500D6370067FAAC /* LandmarkDetail.swift in Sources */,
+				B3AFDFB62500D80D0067FAAC /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +392,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X7S38PP265;
 				INFOPLIST_FILE = SwiftUIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,8 +412,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X7S38PP265;
 				INFOPLIST_FILE = SwiftUIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
