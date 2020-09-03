@@ -10,24 +10,42 @@ import SwiftUI
 
 struct LandmarkList: View {
     
-    var items: [Landmark] = [
-        Landmark(id: 1, name: "name1"),
-        Landmark(id: 2, name: "name2"),
-        Landmark(id: 3, name: "name3"),
-        Landmark(id: 4, name: "name4"),
-        Landmark(id: 5, name: "name5"),
-        Landmark(id: 6, name: "name6"),
-    ]
+    @EnvironmentObject var userData: UserData
     
     var body: some View {
         
         NavigationView {
+            /*
             List(items, id: \.id) { Landmark in
                 NavigationLink(destination: LandmarkDetail(landmark: Landmark)) {
                     LandmarkRow(landmark: Landmark)
                 }
             }
             .navigationBarTitle(Text("Landmarks"))
+            */
+            
+            List {
+                Button(action: {
+                    withAnimation(.easeInOut(duration: 4)) {
+                        self.userData.showEventIdOnly.toggle()
+                    }
+                }) {
+                    Toggle(isOn: $userData.showEventIdOnly) {
+                        Text("only even id")
+                    }
+                }
+                ForEach(userData.landmarks) { landmark in
+                    if !self.userData.showEventIdOnly || landmark.id % 2 == 0 {
+                        NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
+                            LandmarkRow(landmark: landmark)
+                            
+//                            Image(systemName: "chevron.right.circle")
+//                            .imageScale(.large)
+//                            .padding()
+                        }
+                    }
+                }
+            }.navigationBarTitle(Text("Landmarks"))
         }
     }
 }
@@ -35,7 +53,7 @@ struct LandmarkList: View {
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["iPhone 11", "iPhone 8"], id: \.self) { deviceName in
-            LandmarkList()
+            LandmarkList().environmentObject(UserData())
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
         }

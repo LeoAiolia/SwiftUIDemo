@@ -26,6 +26,7 @@
 		B3AFDFB62500D80D0067FAAC /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFB52500D80D0067FAAC /* Landmark.swift */; };
 		B3AFDFBB2500DA480067FAAC /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFBA2500DA480067FAAC /* LandmarkRow.swift */; };
 		B3AFDFBD2500DFD80067FAAC /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFBC2500DFD80067FAAC /* LandmarkList.swift */; };
+		B3AFDFC02500EF760067FAAC /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFBF2500EF760067FAAC /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		B3AFDFB52500D80D0067FAAC /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		B3AFDFBA2500DA480067FAAC /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		B3AFDFBC2500DFD80067FAAC /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		B3AFDFBF2500EF760067FAAC /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		B3AFDFAC2500CED40067FAAC /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				B3AFDFBE2500EF670067FAAC /* 3 */,
 				B3AFDFB42500D7ED0067FAAC /* 2 */,
 				B3AFDFB32500D7D70067FAAC /* 1 */,
 			);
@@ -160,6 +163,14 @@
 				B3AFDFBC2500DFD80067FAAC /* LandmarkList.swift */,
 			);
 			path = 2;
+			sourceTree = "<group>";
+		};
+		B3AFDFBE2500EF670067FAAC /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				B3AFDFBF2500EF760067FAAC /* UserData.swift */,
+			);
+			path = 3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +257,7 @@
 				B3AFDFA62500B9460067FAAC /* Color+Ext.swift in Sources */,
 				B3AFDFAE2500CEE90067FAAC /* CircleImage.swift in Sources */,
 				B3AFDF9E25009F3A0067FAAC /* ContentView.swift in Sources */,
+				B3AFDFC02500EF760067FAAC /* UserData.swift in Sources */,
 				B3AFDF8925009BDC0067FAAC /* SceneDelegate.swift in Sources */,
 				B3AFDFB22500D6370067FAAC /* LandmarkDetail.swift in Sources */,
 				B3AFDFB62500D80D0067FAAC /* Landmark.swift in Sources */,
