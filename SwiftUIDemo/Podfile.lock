@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (5.2.2)
+  - Kingfisher (5.15.0):
+    - Kingfisher/Core (= 5.15.0)
+  - Kingfisher/Core (5.15.0)
+  - Moya (15.0.0-alpha.1):
+    - Moya/Core (= 15.0.0-alpha.1)
+  - Moya/Core (15.0.0-alpha.1):
+    - Alamofire (~> 5.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxKeyboard (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SwiftDate (6.1.0)
+  - SwiftyBeaver (1.8.4)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.15.0)
+  - Moya (~> 15.0.0-alpha.1)
+  - RxKeyboard (~> 1.0.0)
+  - SwiftDate (~> 6.1.0)
+  - SwiftyBeaver (~> 1.8.4)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - Moya
+    - RxCocoa
+    - RxKeyboard
+    - RxRelay
+    - RxSwift
+    - SwiftDate
+    - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  Kingfisher: 1acb67597a520c2d0310677e66d6e0af455ef757
+  Moya: 101c94dfb29289736ecd20fa6e82bea665e0671b
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxKeyboard: 6683c4344304a00f943c158bd8a43ce5469c82a7
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftDate: fa2bb3962056bb44047b4b85a30044e5eae30b03
+  SwiftyBeaver: f9a9aba96a6a6166e21682377804d728b0d20b95
+
+PODFILE CHECKSUM: 885d54604d90940f9eb8123bae8a322651483307
+
+COCOAPODS: 1.9.3
