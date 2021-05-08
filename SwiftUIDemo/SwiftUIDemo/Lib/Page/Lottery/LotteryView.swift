@@ -10,20 +10,37 @@ import SwiftUI
 
 struct LotteryView: View {
     
+    @ObservedObject var control = LotteryControl()
+    let colors = [Color.red, .black, .gray, .green, .blue, .orange, .yellow, .purple]
+    
     var body: some View {
-        VStack(alignment: .leading, spacing: 2.0) {
-            Text("Hellow SwiftUI")
-                .font(.body)
-                .fontWeight(.regular)
-                .foregroundColor(Color.red)
-            HStack {
-                Text("this is test")
-                Spacer()
-                Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+
+        ZStack {
+            ForEach(0..<control.index, id: \.self) { idx in
+                Path { path in
+                    path.move(to: CGPoint(x: 150, y: 150))
+                    path.addArc(center: CGPoint(x: 150, y: 150),
+                                radius: 150,
+                                startAngle: Angle(degrees: Double(idx) * self.control.angle),
+                                endAngle: Angle(degrees: Double(idx+1) * self.control.angle),
+                                clockwise: false)
+                    path.addLine(to: CGPoint(x: 150, y: 150))
+                }.fill(colors[idx % self.colors.count])
             }
-            
-        }.padding([.horizontal, .vertical], 10)
-        .tag("123")
+        }.frame(width: 300, height: 300, alignment: .center).rotationEffect(.degrees(control.rotation))
+    }
+}
+
+class LotteryControl: ObservableObject {
+    @Published var rotation = 0.0
+    let index = 8
+    var angle: Double { 360 / Double(index) }
+    
+    init() {
+        print("init runed:\(angle)")
+        Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { (timer) in
+            self.rotation += 2
+        }
     }
 }
 

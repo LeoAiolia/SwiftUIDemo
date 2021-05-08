@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		622FD4D2EE491A48FE7DECCD /* Pods_SwiftUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D733F0D0BDA81FF91E5C7B /* Pods_SwiftUIDemo.framework */; };
+		B3162B1B25FF5BFD004D693C /* CaculatorButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3162B1A25FF5BFD004D693C /* CaculatorButtonItem.swift */; };
+		B3162B1F25FF5D10004D693C /* CaculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3162B1E25FF5D10004D693C /* CaculatorView.swift */; };
 		B3AFDF8725009BDC0067FAAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDF8625009BDC0067FAAC /* AppDelegate.swift */; };
 		B3AFDF8925009BDC0067FAAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDF8825009BDC0067FAAC /* SceneDelegate.swift */; };
 		B3AFDF8B25009BDC0067FAAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDF8A25009BDC0067FAAC /* ViewController.swift */; };
@@ -28,13 +30,14 @@
 		B3AFDFBB2500DA480067FAAC /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFBA2500DA480067FAAC /* LandmarkRow.swift */; };
 		B3AFDFBD2500DFD80067FAAC /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFBC2500DFD80067FAAC /* LandmarkList.swift */; };
 		B3AFDFC02500EF760067FAAC /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFBF2500EF760067FAAC /* UserData.swift */; };
-		B3AFDFC62500F9E90067FAAC /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B3AFDFC52500F9E90067FAAC /* SnapKit */; };
-		B3AFDFC92500FA5D0067FAAC /* URLNavigator in Frameworks */ = {isa = PBXBuildFile; productRef = B3AFDFC82500FA5D0067FAAC /* URLNavigator */; };
-		B3AFDFCC2500FAA10067FAAC /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = B3AFDFCB2500FAA10067FAAC /* SwiftyJSON */; };
+		B3BF008F25D2752F00FB2918 /* TextPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF008E25D2752F00FB2918 /* TextPage.swift */; };
+		B3BF011425D2964B00FB2918 /* TextFieldPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF011325D2964B00FB2918 /* TextFieldPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A88F391E55922414CECCB032 /* Pods-SwiftUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B3162B1A25FF5BFD004D693C /* CaculatorButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculatorButtonItem.swift; sourceTree = "<group>"; };
+		B3162B1E25FF5D10004D693C /* CaculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculatorView.swift; sourceTree = "<group>"; };
 		B3AFDF8325009BDC0067FAAC /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AFDF8625009BDC0067FAAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3AFDF8825009BDC0067FAAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +60,8 @@
 		B3AFDFBA2500DA480067FAAC /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		B3AFDFBC2500DFD80067FAAC /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		B3AFDFBF2500EF760067FAAC /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		B3BF008E25D2752F00FB2918 /* TextPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPage.swift; sourceTree = "<group>"; };
+		B3BF011325D2964B00FB2918 /* TextFieldPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPage.swift; sourceTree = "<group>"; };
 		BF395046550A9DEF123DB8BF /* Pods-SwiftUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C8D733F0D0BDA81FF91E5C7B /* Pods_SwiftUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -66,9 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3AFDFC92500FA5D0067FAAC /* URLNavigator in Frameworks */,
-				B3AFDFCC2500FAA10067FAAC /* SwiftyJSON in Frameworks */,
-				B3AFDFC62500F9E90067FAAC /* SnapKit in Frameworks */,
 				622FD4D2EE491A48FE7DECCD /* Pods_SwiftUIDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +85,15 @@
 				BF395046550A9DEF123DB8BF /* Pods-SwiftUIDemo.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B3162B1925FF5BCA004D693C /* Caculator */ = {
+			isa = PBXGroup;
+			children = (
+				B3162B1A25FF5BFD004D693C /* CaculatorButtonItem.swift */,
+				B3162B1E25FF5D10004D693C /* CaculatorView.swift */,
+			);
+			path = Caculator;
 			sourceTree = "<group>";
 		};
 		B31CE9A42507169600EF5C89 /* Frameworks */ = {
@@ -151,6 +162,8 @@
 			children = (
 				B3AFDF9D25009F3A0067FAAC /* ContentView.swift */,
 				B3AFDFA72500BB0C0067FAAC /* PageRow.swift */,
+				B3162B1925FF5BCA004D693C /* Caculator */,
+				B3BF008D25D2751100FB2918 /* Views */,
 				B3AFDFAC2500CED40067FAAC /* Example */,
 				B3AFDFA92500C51D0067FAAC /* Lottery */,
 			);
@@ -203,6 +216,15 @@
 			path = 3;
 			sourceTree = "<group>";
 		};
+		B3BF008D25D2751100FB2918 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF008E25D2752F00FB2918 /* TextPage.swift */,
+				B3BF011325D2964B00FB2918 /* TextFieldPage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -222,9 +244,6 @@
 			);
 			name = SwiftUIDemo;
 			packageProductDependencies = (
-				B3AFDFC52500F9E90067FAAC /* SnapKit */,
-				B3AFDFC82500FA5D0067FAAC /* URLNavigator */,
-				B3AFDFCB2500FAA10067FAAC /* SwiftyJSON */,
 			);
 			productName = SwiftUIDemo;
 			productReference = B3AFDF8325009BDC0067FAAC /* SwiftUIDemo.app */;
@@ -255,9 +274,6 @@
 			);
 			mainGroup = B3AFDF7A25009BDC0067FAAC;
 			packageReferences = (
-				B3AFDFC42500F9E90067FAAC /* XCRemoteSwiftPackageReference "SnapKit" */,
-				B3AFDFC72500FA5D0067FAAC /* XCRemoteSwiftPackageReference "URLNavigator" */,
-				B3AFDFCA2500FAA10067FAAC /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = B3AFDF8425009BDC0067FAAC /* Products */;
 			projectDirPath = "";
@@ -329,12 +345,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3AFDFA42500B9370067FAAC /* View+Ext.swift in Sources */,
+				B3162B1B25FF5BFD004D693C /* CaculatorButtonItem.swift in Sources */,
 				B3AFDFB02500D4490067FAAC /* MapView.swift in Sources */,
 				B3AFDF8B25009BDC0067FAAC /* ViewController.swift in Sources */,
 				B3AFDFBD2500DFD80067FAAC /* LandmarkList.swift in Sources */,
 				B3AFDF8725009BDC0067FAAC /* AppDelegate.swift in Sources */,
+				B3162B1F25FF5D10004D693C /* CaculatorView.swift in Sources */,
 				B3AFDFA82500BB0C0067FAAC /* PageRow.swift in Sources */,
+				B3BF011425D2964B00FB2918 /* TextFieldPage.swift in Sources */,
 				B3AFDFAB2500C53A0067FAAC /* LotteryView.swift in Sources */,
+				B3BF008F25D2752F00FB2918 /* TextPage.swift in Sources */,
 				B3AFDFA225009FC80067FAAC /* CGFloat+Ext.swift in Sources */,
 				B3AFDFA025009F8E0067FAAC /* Window+Ext.swift in Sources */,
 				B3AFDFBB2500DA480067FAAC /* LandmarkRow.swift in Sources */,
@@ -548,51 +568,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		B3AFDFC42500F9E90067FAAC /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.1;
-			};
-		};
-		B3AFDFC72500FA5D0067FAAC /* XCRemoteSwiftPackageReference "URLNavigator" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:devxoul/URLNavigator.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.3.0;
-			};
-		};
-		B3AFDFCA2500FAA10067FAAC /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:SwiftyJSON/SwiftyJSON.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		B3AFDFC52500F9E90067FAAC /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B3AFDFC42500F9E90067FAAC /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		B3AFDFC82500FA5D0067FAAC /* URLNavigator */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B3AFDFC72500FA5D0067FAAC /* XCRemoteSwiftPackageReference "URLNavigator" */;
-			productName = URLNavigator;
-		};
-		B3AFDFCB2500FAA10067FAAC /* SwiftyJSON */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B3AFDFCA2500FAA10067FAAC /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
-			productName = SwiftyJSON;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B3AFDF7B25009BDC0067FAAC /* Project object */;
 }

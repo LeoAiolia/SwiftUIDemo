@@ -18,6 +18,15 @@ struct ContentView: View {
                         PageRow(title: "LotteryView", subTitle: "Rotation Lottery")
                     }
                 }
+                Section(header: Text("基础控件")) {
+                    NavigationLink(destination: TextPage()) {
+                        PageRow(title: "Text", subTitle: "TextPage")
+                    }
+                    
+                    NavigationLink(destination: TextFieldPage()) {
+                        PageRow(title: "TextField", subTitle: "TextFieldPage")
+                    }
+                }
                 ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
                     PageRow(title: "LotteryView", subTitle: "Rotation Lottery")
                 }
