@@ -31,7 +31,7 @@ struct TextFieldPage: View {
                 })
             }
             .frame(height: 50).textFieldStyle(RoundedBorderTextFieldStyle())
-            .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
+            .padding(.horizontal, 20)
             
             HStack {
                 Text("密码：").foregroundColor(.secondary)
@@ -44,7 +44,7 @@ struct TextFieldPage: View {
             .textFieldStyle(RoundedBorderTextFieldStyle())
             .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
             
-            ExtractedView()
+            ExtractedView(name: name, password: password)
         }
         .offset(y: -150)
         .navigationBarTitle(Text("TextField"))
@@ -68,6 +68,10 @@ struct TextFieldPage_Previews : PreviewProvider {
 #endif
 
 struct ExtractedView: View {
+    
+    var name: String
+    var password: String
+    
     var body: some View {
         Button(action: {
             print("昵称：\(name), 密码：\(password)")

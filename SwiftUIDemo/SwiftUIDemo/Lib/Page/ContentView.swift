@@ -9,10 +9,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var isActive = false
+    
     var body: some View {
         NavigationView {
             List {
-                
                 Section(header: Text("Animation")) {
                     NavigationLink(destination: LotteryView()) {
                         PageRow(title: "LotteryView", subTitle: "Rotation Lottery")
@@ -32,10 +34,18 @@ struct ContentView: View {
                 }
                 
                 Text("123")
-            }.navigationBarTitle(Text("Example"), displayMode: .large).navigationBarItems(trailing: Button(action: {
-                print("Tap")
+            }.navigationBarTitle(Text("Example"), displayMode: .large).navigationBarItems(leading: VStack{
+                Button(action: {
+                    isActive = true
+                }, label: {
+                    Text("Left").foregroundColor(.orange)
+                })
+                NavigationLink(destination: LeftView(), isActive: $isActive) {}
+            }, trailing: Button(action: {
+                // Home
+                UIViewController.topMost?.navigationController?.pushViewController(HomeViewController(), animated: true)
             }, label: {
-                Text("Tap").foregroundColor(.orange)
+                Text("Home").foregroundColor(.orange)
             })).listStyle(GroupedListStyle())
         }
     }

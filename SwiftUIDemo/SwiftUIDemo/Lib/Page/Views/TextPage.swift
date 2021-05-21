@@ -41,7 +41,7 @@ struct TextPage: View {
                 .multilineTextAlignment(.leading)
                 .lineLimit(1).padding(.leading)
                 
-        }
+        }.padding(.horizontal, 15)
     }
 }
 
