@@ -10,6 +10,8 @@
 		622FD4D2EE491A48FE7DECCD /* Pods_SwiftUIDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D733F0D0BDA81FF91E5C7B /* Pods_SwiftUIDemo.framework */; };
 		B3162B1B25FF5BFD004D693C /* CaculatorButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3162B1A25FF5BFD004D693C /* CaculatorButtonItem.swift */; };
 		B3162B1F25FF5D10004D693C /* CaculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3162B1E25FF5D10004D693C /* CaculatorView.swift */; };
+		B345B6962660EBB800E2DF3F /* ImagePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B345B6952660EBB800E2DF3F /* ImagePage.swift */; };
+		B345B6982660EDD400E2DF3F /* WebImagePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B345B6972660EDD400E2DF3F /* WebImagePage.swift */; };
 		B393E9BB265784AE0001F913 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393E9BA265784AE0001F913 /* HomeViewController.swift */; };
 		B393E9BD265786870001F913 /* LeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393E9BC265786870001F913 /* LeftView.swift */; };
 		B393E9BF265788020001F913 /* RightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B393E9BE265788020001F913 /* RightView.swift */; };
@@ -42,6 +44,8 @@
 		A88F391E55922414CECCB032 /* Pods-SwiftUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B3162B1A25FF5BFD004D693C /* CaculatorButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculatorButtonItem.swift; sourceTree = "<group>"; };
 		B3162B1E25FF5D10004D693C /* CaculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaculatorView.swift; sourceTree = "<group>"; };
+		B345B6952660EBB800E2DF3F /* ImagePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePage.swift; sourceTree = "<group>"; };
+		B345B6972660EDD400E2DF3F /* WebImagePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebImagePage.swift; sourceTree = "<group>"; };
 		B393E9BA265784AE0001F913 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B393E9BC265786870001F913 /* LeftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftView.swift; sourceTree = "<group>"; };
 		B393E9BE265788020001F913 /* RightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightView.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 		B345B6942660EB4C00E2DF3F /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				B345B6952660EBB800E2DF3F /* ImagePage.swift */,
+				B345B6972660EDD400E2DF3F /* WebImagePage.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -364,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B345B6962660EBB800E2DF3F /* ImagePage.swift in Sources */,
 				B3AFDFA42500B9370067FAAC /* View+Ext.swift in Sources */,
 				B393E9BD265786870001F913 /* LeftView.swift in Sources */,
 				B3162B1B25FF5BFD004D693C /* CaculatorButtonItem.swift in Sources */,
@@ -385,6 +392,7 @@
 				B3AFDFA62500B9460067FAAC /* Color+Ext.swift in Sources */,
 				B3AFDFAE2500CEE90067FAAC /* CircleImage.swift in Sources */,
 				B3AFDF9E25009F3A0067FAAC /* ContentView.swift in Sources */,
+				B345B6982660EDD400E2DF3F /* WebImagePage.swift in Sources */,
 				B3AFDFC02500EF760067FAAC /* UserData.swift in Sources */,
 				B3AFDF8925009BDC0067FAAC /* SceneDelegate.swift in Sources */,
 				B3AFDFB22500D6370067FAAC /* LandmarkDetail.swift in Sources */,

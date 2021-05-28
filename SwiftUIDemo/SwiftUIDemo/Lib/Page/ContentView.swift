@@ -39,6 +39,9 @@ struct ContentView: View {
                     NavigationLink(destination: ImagePage()) {
                         PageRow(title: "Image",subTitle: "用以展示本地图片")
                     }
+                    NavigationLink(destination: WebImagePage()) {
+                        PageRow(title: "WebImage",subTitle: "下载网络图片并展示")
+                    }
                 }
                 ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
                     PageRow(title: "LotteryView", subTitle: "Rotation Lottery")
