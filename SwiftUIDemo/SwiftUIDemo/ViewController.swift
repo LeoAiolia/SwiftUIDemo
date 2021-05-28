@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     
     @objc func touchBtn(sender: UIButton) {
         
-        let vc = UIHostingController(rootView: ContentView())
+        let vc = UIHostingController(rootView: ContentView().environmentObject(UserData()))
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

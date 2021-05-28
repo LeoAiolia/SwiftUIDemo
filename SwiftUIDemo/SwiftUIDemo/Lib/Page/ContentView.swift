@@ -19,6 +19,11 @@ struct ContentView: View {
                     NavigationLink(destination: LotteryView()) {
                         PageRow(title: "LotteryView", subTitle: "Rotation Lottery")
                     }
+                    NavigationLink(
+                        destination: LandmarkList(),
+                        label: {
+                            PageRow(title: "LandmarkList", subTitle: "Example")
+                        })
                 }
                 Section(header: Text("基础控件")) {
                     NavigationLink(destination: TextPage()) {

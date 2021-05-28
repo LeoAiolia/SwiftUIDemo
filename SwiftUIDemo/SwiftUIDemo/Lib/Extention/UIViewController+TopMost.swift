@@ -8,6 +8,7 @@
 
 #if os(iOS) || os(tvOS)
 import UIKit
+import SwiftUI
 
 extension UIViewController {
   private class var sharedApplication: UIApplication? {
@@ -63,5 +64,11 @@ extension UIViewController {
 
     return viewController
   }
+}
+
+extension View {
+    func viewController(isPresented: Binding<Bool>, content: () -> ActionSheet) -> some View {
+        return self
+    }
 }
 #endif
