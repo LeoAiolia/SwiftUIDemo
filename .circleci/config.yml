@@ -10,6 +10,7 @@ jobs:
       xcode: 12.5.0 # Specify the Xcode version to use
 
     steps:
+      - cd 'SwiftUIDemo'
       - checkout
       - run: pod install # Install CocoaPods dependencies
       - run: fastlane scan # Run tests using Fastlane
