@@ -33,6 +33,12 @@ struct ContentView: View {
                     NavigationLink(destination: TextFieldPage()) {
                         PageRow(title: "TextField", subTitle: "TextFieldPage")
                     }
+                    NavigationLink(destination: TextFieldPage()) {
+                        PageRow(title: "SecureField", subTitle: "安全输入私密文本的输入控件")
+                    }
+                    NavigationLink(destination: ImagePage()) {
+                        PageRow(title: "Image",subTitle: "用以展示本地图片")
+                    }
                 }
                 ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
                     PageRow(title: "LotteryView", subTitle: "Rotation Lottery")

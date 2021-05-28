@@ -112,6 +112,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B345B6942660EB4C00E2DF3F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		B3AFDF7A25009BDC0067FAAC = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +181,7 @@
 				B393E9BC265786870001F913 /* LeftView.swift */,
 				B393E9BE265788020001F913 /* RightView.swift */,
 				B3AFDFA72500BB0C0067FAAC /* PageRow.swift */,
+				B345B6942660EB4C00E2DF3F /* Image */,
 				B3162B1925FF5BCA004D693C /* Caculator */,
 				B3BF008D25D2751100FB2918 /* Views */,
 				B3AFDFAC2500CED40067FAAC /* Example */,
