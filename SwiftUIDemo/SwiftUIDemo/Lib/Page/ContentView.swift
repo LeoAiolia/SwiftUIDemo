@@ -24,6 +24,13 @@ struct ContentView: View {
                         label: {
                             PageRow(title: "LandmarkList", subTitle: "Example")
                         })
+                    if #available(iOS 14.0, *) {
+                        NavigationLink(
+                            destination: RightView(),
+                            label: {
+                                PageRow(title: "RightView", subTitle: "Grid")
+                            })
+                    }
                 }
                 Section(header: Text("基础控件")) {
                     NavigationLink(destination: TextPage()) {
@@ -42,6 +49,26 @@ struct ContentView: View {
                     NavigationLink(destination: WebImagePage()) {
                         PageRow(title: "WebImage",subTitle: "下载网络图片并展示")
                     }
+                    NavigationLink(
+                        destination: ButtonPage(),
+                        label: {
+                            PageRow(title: "ButtonPage", subTitle: "Button")
+                        })
+                    NavigationLink(
+                        destination: NavigationButtonPage(),
+                        label: {
+                            PageRow(title: "NavigationButtonPage", subTitle: "Navigation Button")
+                        })
+                    NavigationLink(
+                        destination: EditButtonPage(),
+                        label: {
+                            PageRow(title: "EditButtonPage", subTitle: "Edit Button")
+                        })
+                    NavigationLink(
+                        destination: PickerPage(),
+                        label: {
+                            PageRow(title: "PickerPage", subTitle: "picker")
+                        })
                 }
                 ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
                     PageRow(title: "LotteryView", subTitle: "Rotation Lottery")

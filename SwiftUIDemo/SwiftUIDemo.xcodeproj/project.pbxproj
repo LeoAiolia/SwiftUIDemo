@@ -37,6 +37,10 @@
 		B3AFDFC02500EF760067FAAC /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AFDFBF2500EF760067FAAC /* UserData.swift */; };
 		B3BF008F25D2752F00FB2918 /* TextPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF008E25D2752F00FB2918 /* TextPage.swift */; };
 		B3BF011425D2964B00FB2918 /* TextFieldPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF011325D2964B00FB2918 /* TextFieldPage.swift */; };
+		B3DC15DE26677A1200EB6C7A /* PickerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DC15DD26677A1200EB6C7A /* PickerPage.swift */; };
+		B3F725D52666193E009C99D6 /* ButtonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F725D42666193E009C99D6 /* ButtonPage.swift */; };
+		B3F725D726661A62009C99D6 /* NavigationButtonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F725D626661A62009C99D6 /* NavigationButtonPage.swift */; };
+		B3F725D926661A72009C99D6 /* EditButtonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F725D826661A72009C99D6 /* EditButtonPage.swift */; };
 		B3F841A026578A620007EC63 /* UIViewController+TopMost.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8419F26578A620007EC63 /* UIViewController+TopMost.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +77,10 @@
 		B3AFDFBF2500EF760067FAAC /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		B3BF008E25D2752F00FB2918 /* TextPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextPage.swift; sourceTree = "<group>"; };
 		B3BF011325D2964B00FB2918 /* TextFieldPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPage.swift; sourceTree = "<group>"; };
+		B3DC15DD26677A1200EB6C7A /* PickerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerPage.swift; sourceTree = "<group>"; };
+		B3F725D42666193E009C99D6 /* ButtonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPage.swift; sourceTree = "<group>"; };
+		B3F725D626661A62009C99D6 /* NavigationButtonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonPage.swift; sourceTree = "<group>"; };
+		B3F725D826661A72009C99D6 /* EditButtonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonPage.swift; sourceTree = "<group>"; };
 		B3F8419F26578A620007EC63 /* UIViewController+TopMost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TopMost.swift"; sourceTree = "<group>"; };
 		BF395046550A9DEF123DB8BF /* Pods-SwiftUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIDemo/Pods-SwiftUIDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C8D733F0D0BDA81FF91E5C7B /* Pods_SwiftUIDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,9 +195,11 @@
 				B393E9BC265786870001F913 /* LeftView.swift */,
 				B393E9BE265788020001F913 /* RightView.swift */,
 				B3AFDFA72500BB0C0067FAAC /* PageRow.swift */,
+				B3DC15DC26677A0200EB6C7A /* Picker */,
+				B3F725D326661925009C99D6 /* Button */,
 				B345B6942660EB4C00E2DF3F /* Image */,
 				B3162B1925FF5BCA004D693C /* Caculator */,
-				B3BF008D25D2751100FB2918 /* Views */,
+				B3BF008D25D2751100FB2918 /* Text */,
 				B3AFDFAC2500CED40067FAAC /* Example */,
 				B3AFDFA92500C51D0067FAAC /* Lottery */,
 			);
@@ -242,13 +252,31 @@
 			path = data;
 			sourceTree = "<group>";
 		};
-		B3BF008D25D2751100FB2918 /* Views */ = {
+		B3BF008D25D2751100FB2918 /* Text */ = {
 			isa = PBXGroup;
 			children = (
 				B3BF008E25D2752F00FB2918 /* TextPage.swift */,
 				B3BF011325D2964B00FB2918 /* TextFieldPage.swift */,
 			);
-			path = Views;
+			path = Text;
+			sourceTree = "<group>";
+		};
+		B3DC15DC26677A0200EB6C7A /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				B3DC15DD26677A1200EB6C7A /* PickerPage.swift */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		B3F725D326661925009C99D6 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				B3F725D42666193E009C99D6 /* ButtonPage.swift */,
+				B3F725D626661A62009C99D6 /* NavigationButtonPage.swift */,
+				B3F725D826661A72009C99D6 /* EditButtonPage.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,9 +412,13 @@
 				B3BF011425D2964B00FB2918 /* TextFieldPage.swift in Sources */,
 				B393E9BF265788020001F913 /* RightView.swift in Sources */,
 				B3F841A026578A620007EC63 /* UIViewController+TopMost.swift in Sources */,
+				B3F725D926661A72009C99D6 /* EditButtonPage.swift in Sources */,
 				B3AFDFAB2500C53A0067FAAC /* LotteryView.swift in Sources */,
 				B3BF008F25D2752F00FB2918 /* TextPage.swift in Sources */,
+				B3F725D52666193E009C99D6 /* ButtonPage.swift in Sources */,
+				B3DC15DE26677A1200EB6C7A /* PickerPage.swift in Sources */,
 				B3AFDFA225009FC80067FAAC /* CGFloat+Ext.swift in Sources */,
+				B3F725D726661A62009C99D6 /* NavigationButtonPage.swift in Sources */,
 				B3AFDFA025009F8E0067FAAC /* Window+Ext.swift in Sources */,
 				B3AFDFBB2500DA480067FAAC /* LandmarkRow.swift in Sources */,
 				B3AFDFA62500B9460067FAAC /* Color+Ext.swift in Sources */,
